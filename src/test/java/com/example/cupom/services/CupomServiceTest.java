@@ -1,6 +1,5 @@
 package com.example.cupom.services;
 
-import com.example.cupom.dtos.CreateCupomRequest;
 import com.example.cupom.models.CupomModel;
 import com.example.cupom.repositorys.CupomRepository;
 import exceptions.BusinessException;

@@ -1,4 +1,4 @@
-package com.example.cupom.model;
+package com.example.cupom.models;
 
 import jakarta.persistence.*;
 
@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 
 @Entity
-@Table(name = "coupons")
+@Table(name = "TABELA-CUPONS")
 public class CupomModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
